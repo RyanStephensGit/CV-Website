@@ -1,0 +1,147 @@
+
+.headshot {
+    width: 200px;
+    height: auto;
+}
+
+
+body {
+  margin: 0;
+  }
+
+/****************   Nav Section **********************/
+nav {
+	background-color: bisque;
+  border: 3px solid burlywood;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/***********************  Footer Section   **************************/
+footer {
+	background-color: cadetblue;
+  border: 3px solid blue;
+  display:flex;
+  justify-content: center;
+}
+
+/*********** Splash Page ************************/
+header {
+  border: 3px dotted #000055;
+}
+
+.sn-pro {
+  font-family: "SN Pro", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+
+header h1 {
+  font-family: "SN Pro", sans-serif;
+  color: #000055;
+}
+
+header img {
+  border: 3px dashed #000055;
+  border-radius: 5px;
+}
+
+.address {
+  font-style: italic;
+  padding-left: 10px;
+}
+
+.tagline {
+  font-weight: bold;
+  padding-left: 10px;
+}
+
+/************* Sections ********************/
+hr {
+  
+}
+
+section h3 {
+  font-family: "SN Pro", sans-serif;
+  color: #005500;
+}
+
+section dl {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+section ul {
+  list-style: square;
+}
+
+section a {
+  color: #550000;
+  text-decoration: none;
+}
+
+section a:hover {
+  color: #000055;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+/**************   Projects   *****************/
+.three-col {
+	display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 50px;
+}
+
+.card img {
+  width: 80px;
+  height: 80px; 
+  display: block;
+  margin: 0 auto;
+}
+
+.card h3 {
+  text-align: center;
+}
+
+.card {
+  background-color: antiquewhite;
+  border: 4px dashed black;
+  box-shadow: 0 0 6px black;
+}
+
+/**************   Responsiveness   *****************/
+@media (max-width: 680px) {
+    nav {
+      display: block;
+    flex-direction: column;
+    align-items: flex-start;
+    }
+
+    .three-col {
+      grid-template-columns: 1fr;
+      gap: 1rem;
+    }
+}
+
+/**************   Contact Page   *****************/
+.one-col {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 400px;
+  margin: 0 auto; 
+}
+
+input {
+  resize: vertical;
+  min-height: 20px;
+}
+
+textarea {
+   resize: vertical;
+  min-height: 120px;
+}
