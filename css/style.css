@@ -1,6 +1,6 @@
 
 .headshot {
-    width: 200px;
+    width: 250px;
     height: auto;
 }
 
@@ -11,12 +11,16 @@ body {
 
 /****************   Nav Section **********************/
 nav {
-	background-color: bisque;
-  border: 3px solid burlywood;
+	background-color: #ddddff;
+  border: 3px solid #080856;
   display: flex;
   justify-content: space-between;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+  font-family: "SN Pro", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  font-style: normal;
 }
 
 /***********************  Footer Section   **************************/
@@ -29,7 +33,11 @@ footer {
 
 /*********** Splash Page ************************/
 header {
-  border: 3px dotted #000055;
+  border: 5px solid #080856;
+  background-color: rgb(183, 222, 223);
+  text-align: center;
+  padding-bottom: 10px;
+  border-radius: 0px 0px 25px 25px;
 }
 
 .sn-pro {
@@ -45,23 +53,28 @@ header h1 {
 }
 
 header img {
-  border: 3px dashed #000055;
-  border-radius: 5px;
+  border: 5px solid #000055;
+  border-radius: 8px;
 }
 
 .address {
   font-style: italic;
   padding-left: 10px;
+  text-align: center;
 }
 
 .tagline {
   font-weight: bold;
   padding-left: 10px;
+  text-align: center;
 }
 
 /************* Sections ********************/
 hr {
-  
+  border: 10px solid #000055;
+  height: 10px;
+  border-radius: 5px;
+  background-color: #ddddff;
 }
 
 section h3 {
