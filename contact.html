@@ -14,19 +14,21 @@
         <p>Ryan Stephens</p>
         <p><a href ="index.html">About Ryan Stephens</a></p>
     </nav>
-    <h1>Ryan Stephens</h1>
-    <p>4618 Lake Falls Dr &ndash; (470) 323-1610 &ndash; ryanhs1018@gmail.com</p>
+    <header>
+      <h1>Ryan Stephens</h1>
+    </header>
+    <p class="address">4618 Lake Falls Dr &ndash; (470) 323-1610 &ndash; ryanhs1018@gmail.com</p>
     <hr>
     <section>
         <form class="one-col" action="https://formsubmit.co/ryanhs1018@gmail.com" method="POST">
             <label>Name:</label>
-            <input type="text" name="name" required>
+            <input type="text" name="name" placeholder="Your Name" required>
 
             <label>Email:</label>
-            <input type="email" name="email" required>
+            <input type="email" name="email" placeholder="Your Email" required>
 
             <label>Message:</label>
-            <textarea name="message"></textarea>
+            <textarea name="message" placeholder="Your Message"></textarea>
 
             <button type="submit">Submit</button>
         </form>
