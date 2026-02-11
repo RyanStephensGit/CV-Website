@@ -100,11 +100,13 @@ section dl {
   justify-content: center;
   font-size: 17px;
   margin-top: 5px;
+  display: inline-block;
+  border: 4px solid #000055;
+  border-radius: 5px;
+  background-color: #ddddff;
 }
 
 section dt {
-  border: 4px solid #000055;
-  border-radius: 5px;
   padding: 5px 5px 5px 5px;
   text-align: center;
 }
@@ -124,7 +126,7 @@ section ul {
 }
 
 section a {
-  color: #550000;
+  color: darkblue;
   text-decoration: none;
 }
 
