@@ -34,7 +34,7 @@ footer {
 /*********** Splash Page ************************/
 header {
   border: 5px solid #080856;
-  background-color: rgb(183, 222, 223);
+  background-color: #ddeeff;
   text-align: center;
   padding-bottom: 10px;
   border-radius: 0px 0px 25px 25px;
@@ -136,6 +136,7 @@ section ul {
   display: inline-block;
   padding: 5px 5px 5px 5px;
   border-radius: 5px;
+  margin-top: 5px;
 }
 
 section a {
